@@ -2,4 +2,6 @@
   background: #2A2C2F;
   color: white;
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
