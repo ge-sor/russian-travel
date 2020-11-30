@@ -1,6 +1,13 @@
-.website{
+.website {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 456px;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .website {
+      display: none;
+  }
 }

@@ -1,5 +1,7 @@
 .cover {
   background-image: url(../../images/cover_background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 1184px;
   height: 740px;
   margin: 0 auto;
@@ -23,4 +25,11 @@
 
 .cover:hover::before {
   opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+   max-width: 320px;
+   max-height: 200px;
+  }
 }
