@@ -4,7 +4,14 @@
     line-height: 18px;
     color: white;
     margin-right: 18px;
+    transition: opacity linear .3s;
 }
+
+
+.footer__link:hover {
+  opacity: .8;
+}
+
 
 .footer__link:last-of-type {
     margin: 0;
