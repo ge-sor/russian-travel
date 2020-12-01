@@ -9,3 +9,14 @@
     padding-bottom: 92px;
 }
 
+@media screen and (max-width: 767px) {
+    .place {
+        max-width: 720px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .place {
+        max-width: 928px;
+    }
+  }
