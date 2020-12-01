@@ -2,7 +2,6 @@
   margin: 0 auto;
   display: grid;
   width: 1184px;
-
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
@@ -19,6 +18,7 @@
   .photo-grid {
     width: 720px;
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
 
   }
 }

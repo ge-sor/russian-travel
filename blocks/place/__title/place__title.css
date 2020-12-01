@@ -8,13 +8,11 @@
   padding: 0 40px 48px 0;
 }
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1279px) {
   .place__title {
-      padding: 33px 0 16px;
-      width: 288px;
-      font-size: 32px;
-      line-height: 35px;
-      padding: 0 16px 32px;
+    width: 440px;
+    padding-right: 32px;
   }
 }
 
@@ -22,7 +20,20 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    width: 340px;
+    width: 300px;
+    padding-right: 68px;
   }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+      width: 288px;
+      font-size: 32px;
+      line-height: 35px;
+      padding: 0 16px 32px;
+  }
+}
+
+
 
 
