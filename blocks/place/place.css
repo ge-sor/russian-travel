@@ -30,6 +30,7 @@
         padding-bottom: 49px;
         flex-direction: column;
     }
+    
     .place:last-of-type {
       padding-bottom: 66px;
   }
