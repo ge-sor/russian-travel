@@ -3,3 +3,9 @@
   max-width: 1280px;
   color: white;
 }
+
+@media screen and (max-width: 1279px) {
+  .content {
+    max-width: 100vw;
+  }
+}
