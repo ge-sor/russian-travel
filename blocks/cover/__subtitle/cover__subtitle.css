@@ -1,6 +1,8 @@
 .cover__subtitle {
     max-width: 360px;
     text-align: center;
+    text-decoration: none;
+    color: white;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
