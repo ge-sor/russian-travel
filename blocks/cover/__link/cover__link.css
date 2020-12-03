@@ -1,0 +1,33 @@
+.cover__link {
+    background-image: url(../../../images/cover_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 0 auto;
+    width: 100vw;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cover__link::before {
+    content: "";
+    background: #2A2C2F;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: opacity linear .3s;
+  }
+  
+  .cover__link:hover::before {
+    opacity: .8;
+  }
+  
