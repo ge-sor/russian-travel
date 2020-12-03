@@ -8,4 +8,5 @@
   -moz-osx-font-smoothing: grayscale;
    text-rendering: optimizeLegibility;
    margin: 0 auto;
+   overflow-x: hidden;
 }

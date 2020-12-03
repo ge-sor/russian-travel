@@ -9,6 +9,8 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  text-decoration: none;
+    color: white;
 }
 
 .cover::before {
@@ -26,9 +28,4 @@
 
 .cover:hover::before {
   opacity: .8;
-}
-
-@media screen and (max-width: 1279px) {
-  .cover {
-}
 }
