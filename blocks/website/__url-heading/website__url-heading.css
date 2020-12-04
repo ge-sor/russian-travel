@@ -4,11 +4,12 @@
   line-height: 12px;
   letter-spacing: 0.2em;
   color: #AAAAAA;
-  padding-bottom: 12px;
-<<<<<<< HEAD
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
-=======
-}
 
->>>>>>> cb6d96e75626776a32a45e6c06cbe7d1e944567a
+@media screen and (max-width: 1023px) {
+  .website__url-heading {
+    padding-bottom: 14px;
+  }
+}

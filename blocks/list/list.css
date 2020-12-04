@@ -14,5 +14,6 @@
   .list {
     padding-top: 34px;
     padding-bottom: 64px;
+    transform: translateX(-8px);
   }
 }
