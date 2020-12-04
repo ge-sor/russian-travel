@@ -7,14 +7,8 @@
     transition: opacity linear .3s;
 }
 
-
 .footer__link:hover {
   opacity: .8;
-}
-
-
-.footer__link:last-of-type {
-    margin: 0;
 }
 
 @media screen and (max-width: 767px) {
